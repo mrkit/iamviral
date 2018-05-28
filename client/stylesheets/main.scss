@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #212121;
+  color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+.container {
+  width: 60rem;
+  height: 100vh;
+  margin: auto;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  
+  img {
+    height: 14rem;
+  }
+}
